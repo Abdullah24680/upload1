@@ -1,0 +1,124 @@
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+.logo {
+    border-style:solid;
+    border-radius: 15px;
+}
+header {
+    background-color: #fa8277;
+    color: rgb(10, 6, 6);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1, h2 {
+    margin-bottom: 10px;
+}
+
+nav 
+{
+    background-color: grey;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+}
+
+nav ul 
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+nav ul li 
+{
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    display: inline;
+    padding: 15px;
+    margin: 7px;
+    border: 3px  rgb(34, 28, 28);
+    border-radius: 10px;
+    border-style: solid;
+
+}
+
+nav ul li:hover 
+{
+    background-color: rgb(161, 129, 129);
+}
+
+nav ul li a 
+{
+    color: rgb(22, 15, 15);
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+    margin: 50px ;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.h2 {
+    font-size: 1.8em;
+}
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    font-size: 1.5em;
+    color: #ff6f61;
+}
+
+article p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+#about, #contact {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1em;
+}
+.para{
+    text-align: center;
+    font-family:  Arial, sans-serif;
+}
+
+.fav {
+    
+}
+
+#id {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
